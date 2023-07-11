@@ -9,14 +9,14 @@ function Menu() {
           <a href="/">Marketplace</a>
         </li>
         <li>
-          <a href="/about">Rankings</a>
+          <a href="/">Rankings</a>
         </li>
         <li>
-          <a href="/services">Connect a wallet</a>
+          <a href="/">Connect a wallet</a>
         </li>
        
       </ul>
-      <button className="button-menu"> <img className="icone-menu" src= {require('./assets/User.png')} alt='user'/> Sign Up</button>
+      <button className="button-menu"> <img className="icone-menu" src= {require('../assets/User.png')} alt='user'/> Sign Up</button>
       </nav>
 
     
