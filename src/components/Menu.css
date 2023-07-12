@@ -8,6 +8,27 @@ margin-left: 3%;
 margin-right: 3%;
 
 }
+:link{
+  transition: transform 0.3s ease;
+
+}
+:link:hover{
+  transform: scale(1.2);
+  
+}
+
+.scale-link-container {
+  transition: transform 0.3s ease;
+}
+
+.scale-link-container:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
 
 .menu-container {
   display: flex;

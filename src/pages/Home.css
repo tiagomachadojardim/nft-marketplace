@@ -1,10 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 .div-home{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(109, 94, 243); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
+    padding-top: 3%;
 
 }
 .div-trending{
@@ -28,3 +25,16 @@
     padding: 10px; /* Exemplo adicional para espaçamento interno */
 
 }
+
+
+
+.div-home{
+margin-top: 5%;
+display: flex;
+justify-content: space-around;
+
+align-items: flex-start;
+
+}
+
+
