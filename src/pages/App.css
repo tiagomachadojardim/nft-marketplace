@@ -14,13 +14,6 @@ body{
   
 }
 
-header{
-  margin-top: 2%;
-  margin-inline: 4%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 @media screen and (max-width: 600px) {  /* Tablet */
 

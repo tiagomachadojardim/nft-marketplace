@@ -1,14 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 
-.menu {
-display: flex;
-align-items: center;
-justify-content: flex-end;
-width: 100%;
-gap: 20px;
+
+.menu{
+margin-top: 2%;
+margin-left: 3%;
+margin-right: 3%;
 
 }
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.right-section li {
+  margin-left: 10px;
+  
+}
+
 
 .menu a {
 
@@ -27,10 +52,7 @@ gap: 20px;
     gap: 50px;
   }
   
-  li {
-    display: inline-block;
-    
-  }
+ 
   
   a {
     text-decoration: none;
@@ -39,6 +61,7 @@ gap: 20px;
   }
   
   .button-menu {
+    
     display: flex;
     align-items: center;
     justify-content: center;

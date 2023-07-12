@@ -1,7 +1,9 @@
-.div-rankings{
+
+
+.div-home{
     align-items: center;
     text-align: center;
-    border: 1px solid rgb(240, 13, 13); /* Adicione estilos de borda aqui */
+    border: 1px solid rgb(109, 94, 243); /* Adicione estilos de borda aqui */
     padding: 10px; /* Exemplo adicional para espaçamento interno */
 
 }
