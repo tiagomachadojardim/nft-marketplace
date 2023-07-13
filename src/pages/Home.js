@@ -3,7 +3,7 @@ import React from "react";
 import "./Home.css";
 import CardHome from '../components/CardHome';
 import ConteudoHome from "../components/ConteudoHome";
-
+import CardsTrending from "../components/CardsTrending";
 
 
 
@@ -14,8 +14,6 @@ function Home (){
 return(
 
 
-   
-
    <div >
 
    <div className="div-home">
@@ -25,7 +23,21 @@ return(
    <CardHome />
    </div>
    
-   <div className="div-trending"><h1> Trending Collection</h1></div>
+
+
+
+
+
+
+   <div className="div-trending">
+   <div className="div-trending-conteudo">
+   <h3>Trending Collection</h3>
+   <p>Checkout our weekly updated trending collection.</p>
+   </div> 
+   
+   <CardsTrending />
+
+   </div>
 
 
 {/*

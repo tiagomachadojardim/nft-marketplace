@@ -5,11 +5,8 @@
 
 }
 .div-trending{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(109, 107, 124); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
-
+   
+    padding-top: 3%;
 }
 .div-top{
     align-items: center;
@@ -37,4 +34,27 @@ align-items: flex-start;
 
 }
 
+.div-trending{
+    display: flex;
+justify-content: space-around;
+flex-direction: column;
+margin: 8.9%;
+    align-items:flex-start;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 5%;
 
+}
+.div-trending-conteudo h3{
+    
+    font-size: 38px;
+
+
+}
+.div-trending-conteudo p{
+    padding-top: 2%;
+    font-size: 18px;
+    
+
+}

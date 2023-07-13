@@ -8,6 +8,7 @@ import Account from './Account';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import Artist from './Artist';
+import Nftpage from './Nftpage';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/Rankings" element={<Rankings />} />
       <Route path="/Account" element={<Account />} />
       <Route path="/Artist" element={<Artist />} />
+      <Route path="/Nftpage" element={<Nftpage />} />
       </Routes>
       </div>
     
