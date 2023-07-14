@@ -1,0 +1,34 @@
+
+
+
+.div-trending-conteudo{
+    
+    display: flex;
+   align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+    font-family: 'Work Sans', sans-serif;
+    
+    color:rgba(255, 255, 255, 1);
+    
+
+}
+
+
+
+
+
+.div-trending-conteudo h3{
+    
+    font-size: 38px;
+
+
+}
+.div-trending-conteudo p{
+    padding-top: 2%;
+    font-size: 22px;
+   
+    
+
+}

@@ -1,60 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
+.div-total{
+    display: grid;
+    place-items: center;
+}
+
 .div-home{
     padding-top: 3%;
+    display: flex;
+    justify-content:space-between;
+    width: 85%;
 
 }
 .div-trending{
-   
-    padding-top: 3%;
+    display: grid;
+    width: 85%;
+    margin-top: 7%;
 }
-.div-top{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(133, 128, 175); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
+.div-top-creators{
+    display: grid;
+    
+    width: 85%;
+    margin-top: 5%;
 
 }
 .div-browse{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 85%;
     text-align: center;
     border: 1px solid rgb(35, 26, 110); /* Adicione estilos de borda aqui */
     padding: 10px; /* Exemplo adicional para espaçamento interno */
 
-}
-
-
-
-.div-home{
-margin-top: 5%;
-display: flex;
-justify-content: space-around;
-
-align-items: flex-start;
-
-}
-
-.div-trending{
-    display: flex;
-justify-content: space-around;
-flex-direction: column;
-margin: 8.9%;
-    align-items:flex-start;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    color:rgba(255, 255, 255, 1);
-    margin-top: 5%;
-
-}
-.div-trending-conteudo h3{
-    
-    font-size: 38px;
 
 
 }
-.div-trending-conteudo p{
-    padding-top: 2%;
-    font-size: 18px;
-    
 
-}
+
+
+
+
+
+
+
+
+
+
+
