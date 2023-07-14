@@ -9,6 +9,7 @@ const CardsTrending = () => {
        
       <div className="card1-trending">
 
+        
 
          <div className='card1-conteudo'>  {/* card1 */}
         <Link className='card-img' to='/Nftpage'>

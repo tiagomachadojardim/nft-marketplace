@@ -15,6 +15,27 @@ body{
 }
 
 
+:link{
+  transition: transform 0.3s ease;
+
+}
+:link:hover{
+  transform: scale(0.9);
+  
+}
+
+.scale-link-container {
+  transition: transform 0.3s ease;
+}
+
+.scale-link-container:hover {
+  transform: scale(0.9);
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {  /* Tablet */
 
  

@@ -4,7 +4,9 @@ import "./Home.css";
 import CardHome from '../components/CardHome';
 import ConteudoHome from "../components/ConteudoHome";
 import CardsTrending from "../components/CardsTrending";
-
+import ConteudoTrending from "../components/ConteudoTrending";
+import ConteudoTop from "../components/ConteudoTop";
+import CardsTop from "../components/CardsTop";
 
 
 function Home (){
@@ -14,7 +16,7 @@ function Home (){
 return(
 
 
-   <div >
+   <div className="div-total">
 
    <div className="div-home">
       
@@ -24,25 +26,31 @@ return(
    </div>
    
 
-
-
-
-
-
    <div className="div-trending">
-   <div className="div-trending-conteudo">
-   <h3>Trending Collection</h3>
-   <p>Checkout our weekly updated trending collection.</p>
-   </div> 
-   
+  
+   <ConteudoTrending />
    <CardsTrending />
 
    </div>
 
 
+   <div className="div-top-creators">
+
+      <ConteudoTop />
+     
+      <CardsTop/>
+   
+   </div>
+
+   <div className="div-browse">
+      <h3> Browse Categories</h3>
+   
+   
+   </div>
+
 {/*
-   <div className="div-top"><h1> Top Creators</h1></div>
-   <div className="div-browse"><h1> Browse Categories</h1></div>
+   
+   
 
    <footer></footer>*/}
    
