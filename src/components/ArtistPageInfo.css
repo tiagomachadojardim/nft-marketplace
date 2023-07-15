@@ -1,0 +1,31 @@
+.div-artists-page-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: 377px;
+}
+
+.div-artists-page-info-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    margin-left: 20px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.volume{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}

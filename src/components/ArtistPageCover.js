@@ -3,7 +3,9 @@ import "./ArtistPageCover.css";
 
 function ArtistPageCover() {
   return (
-    <div className="div-artist-page-cover">{/*<h1> ArtistPageCover</h1>*/}</div>
+    <div className="div-artist-page-cover">
+      <img className="img-artist-page-cover-avatar" src={require('../assets/ArtistPage/ArtistPageCoverAvatar.png')} alt="ArtistPageCoverAvatar" />
+    </div>
   );
 }
 
