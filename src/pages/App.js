@@ -1,6 +1,7 @@
 import React from 'react';
 import "./App.css";
 import Menu from '../components/Menu';
+import Footer from './Footer';
 import Marketplace from './Marketplace';
 import Connect from './Connect';
 import Rankings from './Rankings';
@@ -11,6 +12,8 @@ import Artist from './Artist';
 import Nftpage from './Nftpage';
 
 function App() {
+
+
 
  
   return (
@@ -31,10 +34,16 @@ function App() {
       <Route path="/Account" element={<Account />} />
       <Route path="/Artist" element={<Artist />} />
       <Route path="/Nftpage" element={<Nftpage />} />
+
+     
+
       </Routes>
       </div>
-    
+
+
+      <Footer />
     </Router>
+   
    
 
   );

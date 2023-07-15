@@ -4,9 +4,13 @@
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 3%;
+
 }
 
 .menu-container {
+
+  
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,6 +92,7 @@ a {
     display: flex;
     align-items: center;
     position: relative;
+    
     z-index: 2;
   }
 
@@ -95,7 +100,7 @@ a {
     display: block;
     cursor: pointer;
     position: relative;
-    margin-left: 10px;
+    margin-left:10px;
     z-index: 2;
   }
 
@@ -134,7 +139,7 @@ a {
   }
 
   .menu-items.open {
-    max-height: 500px; /* Altura máxima para exibir todos os itens do menu */
+    max-height: 200px; 
   }
 
   .menu-items li {
@@ -142,6 +147,9 @@ a {
     text-align: center;
   }
 
+  
+  
+
 }
 
 
@@ -150,17 +158,21 @@ a {
 
 
 
-
-@media screen and (max-width: 300px) { /* Mobile */
+@media screen and (max-width: 425px) { /* Mobile */
   .button-menu {
 
     width: 100%;
   }
 
   .menu-toggle{
-    margin-right: 10px;
+  
+    margin-right: -180%;
   }
 
 
 
 }
+
+
+
+
