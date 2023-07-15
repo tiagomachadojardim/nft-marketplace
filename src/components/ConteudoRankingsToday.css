@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+.conteudoranktoday-conteudo {
+  display: flex;
+  
+  color: #858584;
+  font-family: "Work Sans", sans-serif;
+}
+.conteudoranktoday-conteudo-div {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 16px;
+}
+.conteudotoday{
+  color: white;
+  border-bottom: 2px solid #858584;
+}

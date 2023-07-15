@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+.cards-top-container-ranking {
+  display: flex;
+
+  margin-top: 5%;
+}
+
+.cards-container-top-ranking {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.cards-top-ranking {
+  background-color: rgba(59, 59, 59, 1);
+  padding: 20px 40px 20px 40px;
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+.card-item-ranking {
+  font-family: "Work Sans", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card-top-img-ranking {
+  width: 20px;
+  height: 20px;
+}
+
+.card-item-ranking h5 {
+  padding-top: 10%;
+  font-size: 22px;
+}
+.card-item-ranking p {
+  padding-top: 10%;
+}
+.card-item-label-ranking {
+  color: rgba(133, 133, 132, 1);
+}
+
+.card-item-value-ranking {
+  color: rgba(255, 255, 255, 1);
+}
+
+.card-index-ranking {
+  position: absolute;
+  width: 12%;
+
+  top: 20px;
+  left: 20px;
+
+  color: rgba(133, 133, 132, 1);
+  padding: 5px;
+  border-radius: 50%;
+
+  font-size: 16px; /* Ajusta o tamanho da fonte do índice */
+
+  background: rgba(43, 43, 43, 1);
+}
