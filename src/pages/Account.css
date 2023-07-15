@@ -1,7 +1,82 @@
-.div-account{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(247, 247, 247); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
-
+.div-account {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  background: red;
+  font-family: "Work Sans", sans-serif;
+  color: var(--white, #fff);
+  width: 610px;
 }
+
+.image-wrapper {
+  display: flex;
+  padding: 0;
+}
+
+.image-account {
+  width: 100%;
+  object-fit: cover;
+  min-width: 610px;
+  height: 691px;
+}
+
+.form-create-account {
+  margin: 250px;
+}
+
+.form-text {
+  width: 460px;
+  height: 146px;
+}
+
+.form-text > h2 {
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.form-text > p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 305px;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.form-style > input {
+  display: flex;
+  justify-content: center;
+  width: 290px;
+  height: 46px;
+  border-radius: 20px;
+  border: 1px solid var(--caption-label-text, #858584);
+  background: var(--text, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: var(--background, #2b2b2b);
+}
+
+.form-style > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 290px;
+  height: 46px;
+  border-radius: 20px;
+  background: var(--call-to-action, #a259ff);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
