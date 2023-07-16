@@ -24,5 +24,8 @@ export const inputData = [
     placeholder: "Confirm Password",
     type: "password",
   },
+
 ];
+
+
 
