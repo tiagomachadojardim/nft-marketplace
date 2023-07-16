@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
-.conteudotop-conteudo {
+.conteudotop-conteudo-rank {
   display: flex;
 
   justify-content: space-between;
@@ -10,24 +10,12 @@
 }
 
 
-.conteudotop-conteudo-div {
+.conteudotop-conteudo-div-rank {
   font-size: 21px;
   order: 1;
 }
-.conteudotop-conteudo h3 {
+.conteudotop-conteudo-rank h3 {
   font-size: 51px;
   padding-bottom: 2%;
 }
 
-.conteudotop-conteudo-button {
-  order: 2;
-  display: flex;
-  align-items: center;
-  width: 25%;
-  gap: 10px;
-  justify-content: center;
-  font-family: "Work Sans", sans-serif;
-  color: rgba(255, 255, 255, 1);
-  border: 1px solid rgb(133, 128, 175);
-  border-radius: 20px;
-}

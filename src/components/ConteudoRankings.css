@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 .cards-top-container-ranking {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-top: 5%;
+  
 }
 
 .cards-container-top-ranking {
@@ -15,9 +17,9 @@
 
 .cards-top-ranking {
   background-color: rgba(59, 59, 59, 1);
-  padding: 20px 40px 20px 40px;
+
   flex-direction: row;
-  border-radius: 5px;  
+  border-radius: 5px;
   width: 100%;
   border-radius: 20px;
   text-decoration: none;
@@ -28,6 +30,8 @@
   display: flex;
   flex-direction: row;
   color: rgba(255, 255, 255, 1);
+  align-items: center;
+  width: 28%;
 }
 
 .card-top-img-ranking {
@@ -37,11 +41,10 @@
 }
 
 .card-item-ranking h5 {
-  padding-top: 10%;
   font-size: 22px;
 }
 .card-item-ranking p {
-  padding-top: 10%;
+  padding-top: 0%;
 }
 .card-item-label-ranking {
   color: rgba(133, 133, 132, 1);
@@ -53,20 +56,42 @@
 
 .card-index-ranking {
   width: 12%;
-
   top: 20px;
   left: 20px;
-
   color: rgba(133, 133, 132, 1);
   padding: 5px;
   border-radius: 50%;
-
   font-size: 16px; /* Ajusta o tamanho da fonte do índice */
-
   background: rgba(43, 43, 43, 1);
 }
-
-.card-top-img-ranking:hover{
-  transform: scale(0.9);
+.rank-avatar-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   
+  gap: 10px;
+}
+
+.card-top-img-ranking:hover {
+  transform: scale(0.9);
+}
+.rankings-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  margin-top: 5%;
+  border-radius: 20px;
+  padding: 1%;
+  color: #858584;
+  font-family: "Space Mono", monospace;
+}
+.rank-header-artisttab {
+  margin-right: 30%;
+}
+.rankings-header span {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
 }

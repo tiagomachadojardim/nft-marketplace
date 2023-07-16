@@ -104,30 +104,39 @@ const CardsRanks = () => {
   ];
 
   return (
-    <div className="cards-top-container-ranking">
-      <div className="cards-container-top-ranking">
-        {cardsData.map((card, index) => (
-          <Link to="/Artist" className="cards-top-ranking" key={card.id}>
-            <div className="card-item-ranking">
-              <div className="card-index-ranking">{index + 1}</div>
+    <div className="cards-container-top-ranking">
+      <div className="rankings-header">
+        <span className="rank-header-artisttab">
+          <p>#</p>
+          <p>Artist</p>
+        </span>
+        <span>Change</span>
+        <span>NTFs Sold</span>
+        <span>Volume</span>
+      </div>
+      {cardsData.map((card, index) => (
+        <Link to="/Artist" className="cards-top-ranking" key={card.id}>
+          <div className="card-item-ranking">
+            <div className="card-index-ranking">{index + 1}</div>
+            <div className="rank-avatar-name">
               <img
                 className="card-top-img-ranking"
                 src={card.image}
                 alt={card.title}
               />
               <h5>{card.title}</h5>
-              <p>
-                <span className="card-item-value-ranking"> {card.change}</span>
-                <span className="card-item-value-ranking"> {card.sold}</span>
-                <span className="card-item-value-ranking">
-                  {" "}
-                  {card.description}
-                </span>
-              </p>
             </div>
-          </Link>
-        ))}
-      </div>
+            <div className="rank-values">
+              <span className="card-item-value-ranking"> {card.change}</span>
+              <span className="card-item-value-ranking"> {card.sold}</span>
+              <span className="card-item-value-ranking">
+                {" "}
+                {card.description}
+              </span>
+            </div>
+          </div>
+        </Link>
+      ))}
     </div>
   );
 };
