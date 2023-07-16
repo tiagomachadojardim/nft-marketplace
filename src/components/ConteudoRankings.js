@@ -117,8 +117,8 @@ const CardsRanks = () => {
       {cardsData.map((card, index) => (
         <Link to="/Artist" className="cards-top-ranking" key={card.id}>
           <div className="card-item-ranking">
-            <div className="card-index-ranking">{index + 1}</div>
             <div className="rank-avatar-name">
+            <div className="card-index-ranking">{index + 1}</div>
               <img
                 className="card-top-img-ranking"
                 src={card.image}
@@ -126,14 +126,14 @@ const CardsRanks = () => {
               />
               <h5>{card.title}</h5>
             </div>
-            <div className="rank-values">
-              <span className="card-item-value-ranking"> {card.change}</span>
+            
+              <span className="card-item-value-ranking-c"> {card.change}</span>
               <span className="card-item-value-ranking"> {card.sold}</span>
               <span className="card-item-value-ranking">
                 {" "}
                 {card.description}
               </span>
-            </div>
+            
           </div>
         </Link>
       ))}
