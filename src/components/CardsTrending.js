@@ -16,8 +16,6 @@ const CardsTrending = () => {
         <img  src={require('../assets/trending-collection/Card1-Placeholder.png')} alt="Placeholder" />
         </Link>
        
-       
-       
         <div className='image-row'>
             <Link className='card-img' to='/Nftpage'>
            

@@ -3,12 +3,12 @@
 
     background: rgba(59, 59, 59, 1);
 
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
+    padding: 10px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 45%;
     height: 20%;
-    animation: spin 5s linear infinite; /* Configuração da animação */
+    animation: spin 5s linear infinite; 
     
 }
 

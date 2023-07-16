@@ -138,11 +138,12 @@ margin-bottom: 5%;
     transform: scale(1.2);
   }
 
-  img{
+  .elemento-footer-icon{
     transition: transform 0.3s ease;
   
   }
-  img:hover{
+  .elemento-footer-icon :hover{
     transform: scale(0.9);
     
   }
+  

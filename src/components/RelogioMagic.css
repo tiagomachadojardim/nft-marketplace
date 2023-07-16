@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@500&display=swap');
+
+
+
+
+.div-relogio{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    background: rgba(59, 59, 59, 0.5);
+    border-radius: 20px;
+    padding: 2%;
+    
+
+    color: white;
+
+
+}
+
+.div-relogio h3{
+  
+    font-size: 38px;
+
+
+}
+
+.div-relogio div{
+display: flex;
+gap: 20px;
+
+}
+
+.div-relogio p{
+
+font-size: 12px;
+
+}
+

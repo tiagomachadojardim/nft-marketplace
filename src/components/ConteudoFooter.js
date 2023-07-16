@@ -19,7 +19,7 @@ const ConteudoFooter = () => {
 
     if (email.includes('@') || email.includes(' ') ) {
       alert('E-mail enviado: ' + email);
-      // Lógica adicional para processar o envio do e-mail
+     
     }
      else {
       alert('E-mail inválido');
@@ -33,7 +33,7 @@ const ConteudoFooter = () => {
       <Link to="/Home" className="img-footer" > <img src={require("../assets/logo.png")} alt="LogoFooter" /></Link>
       <p>NFT marketplace UI created with Anima for Figma.</p>
       <p>Join our community</p>
-      <div>
+      <div className="elemento-footer-icon">
       <Link to="https://discord.com" > <img src={require("../assets/DiscordLogo.png")} alt="Disc" /></Link>
       <Link to="https://www.youtube.com" > <img src={require("../assets/YoutubeLogo.png")} alt="You" /></Link>
       <Link to="https://twitter.com" > <img src={require("../assets/TwitterLogo.png")} alt="Twt" /></Link>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+.div-discover-conteudo{
+
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+font-family: 'Work Sans', sans-serif;
+color: white;
+}
+
+
+.div-discover-conteudo-text h3{
+
+    font-size: 38px;
+    padding-bottom: 5%;
+
+}
+
+.div-discover-conteudo-text p{
+
+    font-size: 22px;
+order: 1;
+
+}
+
+
+
+
+.div-discover-button{
+
+display: flex;
+align-items: center;
+
+
+}
+
+.button-discover{
+    padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+
+    order: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+      font-family: 'Work Sans', sans-serif;
+      color: rgba(255, 255, 255, 1);
+      border: 2px solid rgb(133, 128, 175);
+      border-radius: 20px;
+
+
+}
