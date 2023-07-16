@@ -1,18 +1,15 @@
 import React from "react";
-import ImageAccount from "../assets/ImageCreateAccount.png";
-
+import * as I from "../assets/index.js";
 import "./Account.css";
 
 function Account() {
   return (
     <div className="div-account">
-      <div className="image-wrapper">
         <img
           className="image-account"
-          src={ImageAccount}
+          src={I.ImageAccount}
           alt="Two persons in space"
         />
-      </div>
       <form className="form-create-account">
         <div className="form-text">
           <h2>Create Account</h2>
@@ -22,11 +19,35 @@ function Account() {
           </p>
         </div>
         <div className="form-style">
-          <input placeholder="Username" type="text" />
-          <input placeholder="Email Address" type="email" />
-          <input placeholder="Password" type="password" />
-          <input placeholder="Confirm Password" type="password" />
-          <button>Create Account</button>
+          <div className="input-form">
+            <img className="image-form" src={I.UserIconForm} alt="user icon" />
+            <input placeholder="Username" type="text" />
+          </div>
+          <div className="input-form">
+            <img
+              className="image-form"
+              src={I.EnvelopeIconForm}
+              alt="envelope icon"
+            />
+            <input placeholder="Email Address" type="email" />
+          </div>
+          <div className="input-form">
+            <img
+              className="image-form"
+              src={I.LockKeyIconForm}
+              alt="lockkey icon"
+            />
+            <input placeholder="Password" type="password" />
+          </div>
+          <div className="input-form">
+            <img
+              className="image-form"
+              src={I.LockKeyIconForm}
+              alt="lockkey icon"
+            />
+            <input placeholder="Confirm Password" type="password" />
+          </div>
+          <button className="button-form">Create Account</button>
         </div>
       </form>
     </div>

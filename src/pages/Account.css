@@ -2,15 +2,8 @@
   display: flex;
   justify-content: space-between;
   gap: 60px;
-  background: red;
   font-family: "Work Sans", sans-serif;
-  color: var(--white, #fff);
-  width: 610px;
-}
-
-.image-wrapper {
-  display: flex;
-  padding: 0;
+  color: #fff;
 }
 
 .image-account {
@@ -18,10 +11,14 @@
   object-fit: cover;
   min-width: 610px;
   height: 691px;
+  flex: 1;
 }
 
 .form-create-account {
-  margin: 250px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
 }
 
 .form-text {
@@ -33,6 +30,7 @@
   font-size: 51px;
   font-weight: 600;
   line-height: 110%;
+  margin-bottom: 20px;
 }
 
 .form-text > p {
@@ -51,32 +49,57 @@
   margin-top: 40px;
 }
 
-.form-style > input {
+.input-form {
   display: flex;
-  justify-content: center;
-  width: 290px;
-  height: 46px;
   border-radius: 20px;
-  border: 1px solid var(--caption-label-text, #858584);
-  background: var(--text, #fff);
+  background: #fff;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.image-form {
+  width: 20px;
+  height: 20px;
+}
+
+.input-form > input {
+  display: flex;
+  height: 46px;
+  width: 85%;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
-  color: var(--background, #2b2b2b);
+  font-family: "Work Sans", sans-serif;
+  color: #2b2b2b;
 }
 
-.form-style > button {
+.input-form > input::placeholder {
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+
+.button-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  width: 290px;
-  height: 46px;
+  margin-top: 15px;
+  padding: 14px 0;
+  border: none;
   border-radius: 20px;
-  background: var(--call-to-action, #a259ff);
+  background: #a259ff;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  line-height: 140%;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
+
+.button-form:hover {
+  transform: scale(95%);
+}
+
 
