@@ -1,26 +1,11 @@
 .div-artist-page-cover {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: -70px;
-    align-self: stretch;
+    align-items: flex-end;
     background-image: url('../assets/ArtistPage/ArtistPageCoverImage.png');
     width: 100%;
     height: 320px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: -40px;
 }
-
-.img-artist-page-cover-avatar {
-    border-radius: 20px;
-    border: 2px solid var(--background, #2B2B2B);
-    transition: all 0.3s;
-}
-
-.img-artist-page-cover-avatar:hover {
-    transform: scale(0.95);
-    cursor: pointer;
-}
-
