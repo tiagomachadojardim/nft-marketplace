@@ -67,8 +67,11 @@ background-size: cover;
 
   display: flex;
   align-items:flex-end;
+  
     justify-content: space-between;
-    padding: 10%;
+    padding-left:10% ;
+    padding-right:10% ;
+    padding-bottom:5% ;
 
 }
 

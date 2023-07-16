@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@500&display=swap');
+
+.magic-h3{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Work Sans', sans-serif;
+    font-size:  38px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+.button-magic-avatar{
+
+    padding: 3%;
+    
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    justify-content: center;
+      font-family: 'Work Sans', sans-serif;
+      color: rgba(255, 255, 255, 1);
+     background-color: rgba(59, 59, 59, 1);
+      border-radius: 20px;
+
+}
+
+
+.button-magic{
+
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    justify-content: center;
+      font-family: 'Work Sans', sans-serif;
+      background: rgba(255, 255, 255, 1);
+      
+      border-radius: 20px;
+      color: rgb(0, 0, 0);
+      border: none;
+
+
+}

@@ -9,9 +9,9 @@
     font-family: 'Space Mono', monospace;
     background: rgba(59, 59, 59, 0.5);
     border-radius: 20px;
-    padding: 2%;
+    padding: 3%;
     
-
+    
     color: white;
 
 
@@ -27,11 +27,15 @@
 .div-relogio div{
 display: flex;
 gap: 20px;
+align-items: center;
+justify-content: space-between;
+
 
 }
 
 .div-relogio p{
-
+    display: flex;
+   
 font-size: 12px;
 
 }

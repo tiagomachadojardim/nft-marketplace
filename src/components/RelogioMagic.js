@@ -39,8 +39,8 @@ const RelogioMagic = ({ targetTime }) => {
   return (
     <div className='div-relogio'>
     <p>Auction ends in:</p>
-    <div><h3>{remainingTime.hours}</h3> <h3>{remainingTime.minutes}</h3> <h3>{remainingTime.seconds}</h3></div>
-    <div><p>Horas</p> <p>Minutos</p> <p>Segundos</p></div>
+    <div><h3>{remainingTime.hours } :</h3> <h3>{remainingTime.minutes} :</h3> <h3>{remainingTime.seconds}</h3></div>
+    <div><p>Horas  </p> <p>Minutos  </p> <p>Segundos  </p></div>
 
 
       
