@@ -17,11 +17,10 @@
   background-color: rgba(59, 59, 59, 1);
   padding: 20px 40px 20px 40px;
   flex-direction: row;
-  border-radius: 5px;
-
+  border-radius: 5px;  
   width: 100%;
-
   border-radius: 20px;
+  text-decoration: none;
 }
 
 .card-item-ranking {
@@ -34,6 +33,7 @@
 .card-top-img-ranking {
   width: 20px;
   height: 20px;
+  transition: transform 0.3s ease;
 }
 
 .card-item-ranking h5 {
@@ -64,4 +64,9 @@
   font-size: 16px; /* Ajusta o tamanho da fonte do índice */
 
   background: rgba(43, 43, 43, 1);
+}
+
+.card-top-img-ranking:hover{
+  transform: scale(0.9);
+  
 }

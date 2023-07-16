@@ -7,7 +7,7 @@ import ConteudoRankings from "../components/ConteudoRankings";
 
 function Rankings() {
   return (
-    <div>
+    <div className="div-rankings">
       <div >
         <ConteudoTopRank />
       </div>

@@ -9,14 +9,14 @@
   font-family: "Work Sans", sans-serif;
 }
 
-.conteudotop-conteudo h3 {
-  font-size: 30px;
-  padding-bottom: 2%;
-}
 
 .conteudotop-conteudo-div {
-  font-size: 22px;
+  font-size: 21px;
   order: 1;
+}
+.conteudotop-conteudo h3 {
+  font-size: 51px;
+  padding-bottom: 2%;
 }
 
 .conteudotop-conteudo-button {
