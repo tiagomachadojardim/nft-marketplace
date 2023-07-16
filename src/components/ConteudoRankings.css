@@ -2,7 +2,7 @@
 
 .cards-top-container-ranking {
   display: flex;
-
+  justify-content:center;
   margin-top: 5%;
 }
 
@@ -10,18 +10,15 @@
   display: flex;
   flex-direction: column;
   gap: 29px;
+  width: 100%;
 }
 
 .cards-top-ranking {
   background-color: rgba(59, 59, 59, 1);
   padding: 20px 40px 20px 40px;
-
-  border-radius: 5px;
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
-  
+  border-radius: 5px;
+
   width: 100%;
 
   border-radius: 20px;
@@ -29,6 +26,8 @@
 
 .card-item-ranking {
   font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -53,7 +52,6 @@
 }
 
 .card-index-ranking {
-  position: absolute;
   width: 12%;
 
   top: 20px;
