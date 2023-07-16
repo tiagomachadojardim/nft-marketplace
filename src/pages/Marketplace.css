@@ -1,7 +1,61 @@
-.div-marketplace{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(235, 232, 53); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
+.div-marketplace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.headline-marketplace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  gap: 30px;
+}
+
+.text-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  gap: 10px;
+  width: 100%;
+}
+
+.text-headline > h2 {
+  font-size: 51px;
+}
+
+.text-headline > p {
+  font-size: 22px;
+}
+
+.searchbar-headline {
+  display: flex;
+  width: 1050px;
+  border-radius: 20px;
+  border: 1px solid #3b3b3b;
+  height: 60px;
+  justify-content: space-between;
+  padding: 12px 20px;
+  align-items: center;
+}
+
+.searchbar-headline > input {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  width: 90%;
+  color: #858584;
+}
+
+.searchbar-headline > input::placeholder {
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.searchbar-headline > img {
+  width: 24px;
+  height: 24px;
 }
