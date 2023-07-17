@@ -1,8 +1,12 @@
-import React from "react";
-import SearchIcon from "../assets/SearchIcon.png"
+import React, { useState } from "react";
+import SearchIcon from "../assets/SearchIcon.png";
 import "./Marketplace.css";
+import { cardsData } from "../utils/index.js";
+import CardsMarketplace from "../components/CardsMarketplace/CardsMarketplace";
 
 function Marketplace() {
+  const [isEnable, setIsEnable] = useState(true);
+
   return (
     <div className="div-marketplace">
       <div className="headline-marketplace">
@@ -11,11 +15,50 @@ function Marketplace() {
           <p>Browse through more than 50k NFTs on the NFT Marketplace.</p>
         </div>
         <div className="searchbar-headline">
-          <input placeholder="Search your favourite NFTs" type="text"/>
-          <img src={SearchIcon} alt="Search Icon"/>
+          <input placeholder="Search your favourite NFTs" type="text" />
+          <img src={SearchIcon} alt="Search Icon" />
         </div>
       </div>
-      <div className="content-marketplace"></div>
+      <div className="content-marketplace">
+        <div className="navigationbar-content">
+          <div
+            onClick={() => setIsEnable(true)}
+            className={`nav-bar ${isEnable ? "enabled" : "disabled"}`}
+          >
+            <h5>NFTs</h5>
+            <span className="counter-itens">302</span>
+          </div>
+          <div
+            onClick={() => setIsEnable(false)}
+            className={`nav-bar ${!isEnable ? "enabled" : "disabled"}`}
+          >
+            <h5>Collections</h5>
+            <span className="counter-itens">67</span>
+          </div>
+        </div>
+        <div className="cards-content">
+          {isEnable ? (
+            <>
+              {cardsData.map((item, index) => (
+                <CardsMarketplace
+                  image={item.image}
+                  title={item.title}
+                  avatar={item.avatar}
+                  nickname={item.nickname}
+                  alt1={item.alt1}
+                  alt2={item.alt2}
+                  key={index}
+                />
+              ))}
+            </>
+          ) : (
+            <>
+            
+            </>
+          )}
+        </div>
+
+      </div>
     </div>
   );
 }
