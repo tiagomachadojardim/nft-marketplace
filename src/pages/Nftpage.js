@@ -96,23 +96,7 @@ const Nftpage = () => {
         </div>
         <div className='morenfts_section'>
             <div className='morenfts_section_left'>
-            <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
-                    <div className='discover-conteudo'>
-                        <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
-                        <div className='discover-conteudo-value'>
-                            <div>
-                                <p className='discover-label'>Price</p>
-                                <p>1.63 ETH</p>
-                            </div>
-                            <div>
-                                <p className='discover-label'>Highest Bid</p>
-                                <p>0.33 wETH</p>
-                            </div>
-                        </div>
-                    </div>
-                </Link>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
                     <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
@@ -130,6 +114,8 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
                     <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
@@ -147,13 +133,34 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                </div>
             </div>
             <div className='morenfts_section_center'>
+            <div className='morenfts_section_div'>
             <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card2.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/2.png')} alt="icon" />NebulaKid</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -166,11 +173,13 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card2.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/2.png')} alt="icon" />NebulaKid</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -183,11 +192,13 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card2.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/2.png')} alt="icon" />NebulaKid</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -200,13 +211,15 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
             </div>
             <div className='morenfts_section_right'>
+            <div className='morenfts_section_div'>
             <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card3.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/3.png')} alt="icon" />SpaceOne</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -219,11 +232,13 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card3.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/3.png')} alt="icon" />SpaceOne</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -236,11 +251,13 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
+                <div className='morenfts_section_div'>
                 <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
-                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <img src={require("../assets/discover/card3.png")} className='img-principal-discover' alt="Imagem 1" />
                     <div className='discover-conteudo'>
                         <h4>Distant Galaxy</h4>
-                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <p><img src={require('../assets/discover/3.png')} alt="icon" />SpaceOne</p>
                         <div className='discover-conteudo-value'>
                             <div>
                                 <p className='discover-label'>Price</p>
@@ -253,6 +270,7 @@ const Nftpage = () => {
                         </div>
                     </div>
                 </Link>
+                </div>
             </div>
         </div>
         </>
