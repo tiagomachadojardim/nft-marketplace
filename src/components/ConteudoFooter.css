@@ -138,11 +138,11 @@ margin-bottom: 5%;
     transform: scale(1.2);
   }
 
-  img{
+  .container-footer > img{
     transition: transform 0.3s ease;
   
   }
-  img:hover{
+  .container-footer> img:hover{
     transform: scale(0.9);
     
   }

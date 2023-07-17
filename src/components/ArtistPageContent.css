@@ -1,0 +1,132 @@
+.div-artist-page-content{
+    padding: 80px;
+    padding-bottom: 80px;
+    background-color: #3b3b3b;
+}
+
+.div-artist-page-content-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    gap: 30px 30px;
+    border: 10px;
+}
+
+.div-artist-page-content-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    width: 100%;
+    background-color: #2b2b2b;
+}
+
+@media screen and (max-width: 768px) {
+    .div-artist-page-content-header{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div-artist-page-content-header :nth-child(n+7){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .div-artist-page-content-header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .div-artist-page-content-header :nth-child(n+4){
+        display: none;
+    }
+    
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.card-header h3{
+    color: var(--white, #FFF);
+    /* H5 - Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+
+.avatar-and-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar-and-name h4{
+    color: var(--white, #FFF);
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.price h6{
+    color: #858584;
+    /* Caption - Space Mono */
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+
+.price p{
+    color: var(--white, #FFF);
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.highest-bid h6{
+    color: #858584;
+    /* Caption - Space Mono */
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+
+.highest-bid p{
+    color: var(--white, #FFF);
+    /* Base (Body) - Space Mono */
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
