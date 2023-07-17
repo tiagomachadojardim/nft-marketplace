@@ -3,3 +3,8 @@
     padding: 176px; /* Exemplo adicional para espaçamento interno */
 
 }
+@media screen and (max-width: 768px) {
+.div-rankings {
+    padding: 65px;
+}
+}
