@@ -23,7 +23,6 @@
 
 .form-text {
   width: 460px;
-  height: 146px;
 }
 
 .form-text > h2 {
@@ -69,4 +68,44 @@
   transform: scale(95%);
 }
 
+@media screen and (max-width: 1279px) {
+  .div-account {
+    gap: 40px;
+  }
 
+  .image-account {
+    min-width: 397px;
+  }
+
+  .form-text {
+    width: 325px;
+  }
+
+  .form-text > h2 {
+    font-size: 38px;
+  }
+
+  .form-text > p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 833px) {
+   .div-account {
+    flex-direction: column;
+
+  }
+
+  .image-account {
+    min-width: 100%;
+    flex: none;
+    height: 232px;
+  }
+
+  .form-create-account {
+    align-items: center;
+    padding-bottom: 40px;
+    flex: none;
+  }
+
+}
