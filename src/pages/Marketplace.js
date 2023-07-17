@@ -3,6 +3,8 @@ import SearchIcon from "../assets/SearchIcon.png";
 import "./Marketplace.css";
 import { cardsData } from "../utils/index.js";
 import CardsMarketplace from "../components/CardsMarketplace/CardsMarketplace";
+import { collectionsData } from "../utils/index.js";
+import CollectionsMarketplace from "../components/CollectionsMarketplace/CollectionsMarketplace";
 
 function Marketplace() {
   const [isEnable, setIsEnable] = useState(true);
@@ -53,11 +55,20 @@ function Marketplace() {
             </>
           ) : (
             <>
-            
+              {collectionsData.map((item, index) => (
+                <CollectionsMarketplace
+                  image1={item.image1}
+                  image2={item.image2}
+                  image3={item.image3}
+                  title={item.title}
+                  avatar={item.avatar}
+                  nickname={item.nickname}
+                  key={index}
+                />
+              ))}
             </>
           )}
         </div>
-
       </div>
     </div>
   );
