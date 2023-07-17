@@ -44,7 +44,7 @@
 @media(max-width:768px){
     .div-connect{
         flex-wrap: wrap;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .CImg .CImg_mobile{
