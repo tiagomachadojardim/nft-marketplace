@@ -1,8 +1,13 @@
 import React from 'react';
 import './Nftpage.css';
-import { Link, useNavigate  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nftpage = () => {
+
+    
+       
+
+
     return (
         <>
         <img src={require("../assets/NftPage.png")} alt="placeholder" className='CImg_desktop' />

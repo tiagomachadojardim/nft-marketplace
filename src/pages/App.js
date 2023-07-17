@@ -13,8 +13,6 @@ import Nftpage from './Nftpage';
 
 function App() {
 
-
-
  
   return (
   
@@ -29,9 +27,7 @@ function App() {
 
 
       <Route path="/" element={<Navigate to="/Home" />} />
-
-
-    
+      
       <Route path="/Home" element={<Home />} />
       <Route path="/Marketplace" element={<Marketplace />} />
       <Route path="/Connect" element={<Connect />} />
