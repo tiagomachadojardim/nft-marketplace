@@ -86,6 +86,170 @@ const Nftpage = () => {
                 </div>
             </div>
         </div>
+        <div className='container_nftPage_morenfts'>
+            <h1>More From This Artist</h1>
+        </div>
+        <div className='morenfts_section'>
+            <div className='morenfts_section_left'>
+            <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+            </div>
+            <div className='morenfts_section_center'>
+            <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+            </div>
+            <div className='morenfts_section_right'>
+            <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+                    <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
+                    <div className='discover-conteudo'>
+                        <h4>Distant Galaxy</h4>
+                        <p><img src={require('../assets/discover/1.png')} alt="icon" />MoonDancer</p>
+                        <div className='discover-conteudo-value'>
+                            <div>
+                                <p className='discover-label'>Price</p>
+                                <p>1.63 ETH</p>
+                            </div>
+                            <div>
+                                <p className='discover-label'>Highest Bid</p>
+                                <p>0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+            </div>
+        </div>
         </>
     );
   }

@@ -170,9 +170,43 @@
     margin-bottom: 0.8rem;
 }
 
+.container_nftPage_morenfts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 13%;
+    margin: 3rem 0; 
+}
+
+.container_nftPage_morenfts h1{
+    font-size: 2.5rem;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.nftPage_morenfts_button p{
+    text-align: left;
+}
+
+.morenfts_section{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0 13%;
+}
+
+@media(max-width:1300px){
+    .morenfts_section_right{
+        display: none;
+    }
+}
 
 @media(max-width:1000px){
     .container_nftPage{
+        padding: 0 7%;
+    }
+
+    .morenfts_section{
         padding: 0 7%;
     }
 
@@ -189,11 +223,29 @@
         padding: 0 3%;
     }
 
+    .morenfts_section{
+        padding: 0 3%;
+    }
+
     .nftPage_counter_mobile{
         display: block;
     }
 
     .nftPage_counter_div{
+        display: none;
+    }
+
+    .nftPage_morenfts_button{
+        display: none;
+    }
+
+    .container_nftPage_morenfts h1{
+        font-size: 1.6rem;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .morenfts_section_center{
         display: none;
     }
 }   
