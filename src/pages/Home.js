@@ -7,7 +7,7 @@ import CardsTrending from "../components/CardsTrending";
 import ConteudoTrending from "../components/ConteudoTrending";
 import ConteudoTop from "../components/ConteudoTop";
 import CardsTop from "../components/CardsTop";
-
+import CardsBrowse from "../components/CardsBrowse";
 
 function Home (){
 
@@ -43,16 +43,32 @@ return(
    </div>
 
    <div className="div-browse">
-      <h3> Browse Categories</h3>
-   
-   
+      <h4> Browse Categories</h4>
+      <CardsBrowse />
+         
    </div>
 
-{/*
+
+   <div className="div-discover">
+
+
+   </div>
+
+   <div className="div-imagem">
    
    
 
-   <footer></footer>*/}
+   </div>
+
+
+   <div className="div-how">
+
+
+   </div>
+
+   <div className="div-join-our"></div>
+
+
    
    </div>
 

@@ -6,8 +6,9 @@
   
   
   margin-top: 5%;
+ 
 
-
+  
 
 }
 
@@ -97,4 +98,23 @@
 
 
 
+  }
+
+
+
+  @media screen and (max-width: 768px) {  /* Tablet e Mobile */
+  
+  
+    .cards-container-top {
+   
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 29px;
+        
+        
+      }
+  
+  
+  
+  
   }
