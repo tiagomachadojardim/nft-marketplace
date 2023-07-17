@@ -127,6 +127,27 @@
   .card-item-value-ranking-s {
     display: none;
   }
+  .card-index-ranking {
+    background: none;
+  }
+  .rank-avatar-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 47%;
+    gap: 10px;
+  }
+  .card-top-img-ranking {
+    width: 34px;
+    transition: transform 0.3s ease;
+  }
+  .card-item-ranking h5 {
+    font-size: 14px;
+  }
+  .conteudotop-conteudo-rank h3 {
+    font-size: 38px;
+    padding-bottom: 2%;
+}
 }
 
 @media screen and (max-width: 300px) {
@@ -153,7 +174,7 @@
   }
   .card-item-ranking h5 {
     font-size: 14px;
-}
+  }
   .nft {
     display: none;
   }
@@ -165,5 +186,15 @@
   }
   .card-item-value-ranking-c {
     display: none;
+  }
+  .card-index-ranking {
+    background: none;
+  }
+  .card-item-ranking h5 {
+    font-size: 9px;
+  }
+  .card-top-img-ranking {
+    width: 31px;
+    transition: transform 0.3s ease;
   }
 }
