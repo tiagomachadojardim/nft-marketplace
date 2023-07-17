@@ -1,0 +1,76 @@
+.cards {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background: #2b2b2b;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.cards:hover {
+  transform: scale(95%);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 25px;
+}
+
+.info > h5 {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.avatar-info {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 9px;
+}
+
+.avatar-info > p {
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.price > h6 {
+  font-family: "Space Mono";
+  font-size: 12px;
+  color: #858584;
+  font-weight: 400;
+}
+
+.price > p {
+  font-family: "Space Mono";
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (max-width:1279px) {
+  .cards {
+    width: 47%;
+  }  
+}
+
+@media screen and (max-width:833px) {
+  .cards {
+    width: 315px;
+  }  
+}

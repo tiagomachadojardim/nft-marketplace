@@ -17,8 +17,7 @@
 .conteudo-home h1{
 
   font-size: 67px;
-   
-    
+  
 }
 .conteudo-home p{
     margin-top: 5%;
@@ -70,7 +69,94 @@ justify-content: space-between;
 
 }
 .column p{
-   
+    font-family: 'Work Sans', sans-serif;
     font-size: 17px;
+
+}
+
+
+@media screen and (max-width: 768px) {  /* Tablet */
+   
+
+    .conteudo-home h1{
+
+        font-size: 38px;
+        
+      }
+
+      .conteudo-home p{
+      
+       font-size: 16px;
+        
+    }
+
+    .conteudo-home-button{
+        width: 70%;
+      
+    }
+
+
+}
+
+
+@media screen and (max-width: 425px) { /* Mobile */
+
+    .conteudo-home{
+       
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+
+
+}
+
+.conteudo-home p{
+      
+    padding-bottom: 400px;
+
+     
+ }
+
+
+    .conteudo-home-button{
+        
+        width: 100%;
+      
+    }
+    
+    .column{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+  
+ }
+
+ @media screen and (max-width: 375px) { /* Mobile */
+
+    .conteudo-home p{
+      
+        padding-bottom: 370px;
+    
+         
+     }
+
+
+
+
+}
+@media screen and (max-width: 320px) { /* Mobile */
+
+
+    .conteudo-home p{
+      
+        padding-bottom: 320px;
+    
+         
+     }
+
+
 
 }

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@500&display=swap');
+.card-discover{
+margin-top: 5%;
+display: flex;
+width: 100%;
+justify-content: flex-start;
+
+gap: 50px;
+
+}
+
+
+.card-discover-1{
+    
+   
+    width: 100%;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+
+}
+
+.img-principal-discover{
+    width: 100%;
+}
+
+.discover-conteudo{
+
+
+display: grid;
+
+padding: 5%;
+align-items: stretch;
+font-family: 'Work Sans', sans-serif;
+color: rgba(255, 255, 255, 1);
+}
+
+.discover-conteudo h4{
+font-size: 22px;
+
+}
+
+.discover-conteudo p{
+    padding-top: 5%;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ font-family: 'Space Mono', monospace;
+ font-size: 16px;
+
+}
+
+
+
+.discover-conteudo-value{
+padding-top: 5%;
+display: flex;
+
+justify-content: space-between;
+
+}
+
+.discover-label{
+    color: rgba(133, 133, 132, 1);
+    font-size: 12px;
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {  /* Tablet */
+
+
+.hidden-discover3{
+
+    display: none;
+}
+
+.card-discover{
+   
+    display: flex;
+    
+    gap: 20px;
+    
+    }
+    .img-principal-discover{
+
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) { /* Mobile */
+
+    .hidden-discover3{
+
+        display: block;
+    }
+    .card-discover{
+        flex-direction: column;
+
+       margin-top: -450%;
+       
+       width: 100%;
+       
+        
+        }
+
+        .img-principal-discover{
+
+            width: 100%;
+        }
+
+  
+ }
+
+ @media screen and (max-width: 375px) { 
+
+    .card-discover{
+       
+
+       margin-top: -470%;
+       
+      
+       
+        
+        }
+
+
+ }
+
+ @media screen and (max-width: 320px) { 
+
+    .card-discover{
+       
+
+        margin-top: -490%;
+        
+       
+        
+         
+         }
+
+
+ }

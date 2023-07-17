@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+
+.container-join{
+
+width: 90%;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+font-family: 'Work Sans', sans-serif;
+
+color: rgba(255, 255, 255, 1);
+
+}
+
+.join-h3{
+   
+    font-size: 38px;
+   
+    }
+    
+.join-p{
+       font-size: 22px;
+    padding-top: 10%;
+   
+    
+    }
+
+
+.div-join-email{
+
+ 
+ margin-top: 10%;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+
+}
+
+
+
+
+  .div-join-email-imput{
+    border-radius: 20px;
+    width: 100%;
+    flex: 1;
+    background: white;
+    padding: 10px;
+    border: none;
+
+
+  }
+  .div-join-email-button {
+    border-radius: 15px;
+   
+    background: rgba(162, 89, 255, 1);
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 20px;
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    
+
+ 
+  
+  }
+
+  .div-join-email-button:hover{
+ 
+    transform: skew(-5deg) translateX(-10px);
+  }
+
+  .div-join-email-button:active{
+ 
+    transform: scale(1.2);
+  }
+
+  .elemento-join-icon{
+    transition: transform 0.3s ease;
+  
+  }
+  .elemento-join-icon :hover{
+    transform: scale(0.9);
+    
+  }
+  
+
+
+
+  @media screen and (max-width: 768px) {  /* Tablet */
+  
+.container-join{
+
+  width: 100%;
+}
+
+    .join-h3{
+font-size: 26px;
+
+
+    }
+    .join-p{
+      font-size: 16px;
+    }
+
+
+    .div-join-email{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+      padding: 0%;
+      background: transparent;
+
+    }
+
+
+
+
+
+    }
+    
+    
+    @media screen and (max-width: 425px) { /* Mobile */
+    
+
+      
+     }

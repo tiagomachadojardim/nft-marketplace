@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:wght@500&display=swap');
+
+
+
+
+.div-relogio{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    background: rgba(59, 59, 59, 0.5);
+    border-radius: 20px;
+    padding: 3%;
+    
+    
+    color: white;
+
+
+}
+
+.div-relogio h3{
+  
+    font-size: 38px;
+
+
+}
+
+.div-relogio div{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.div-relogio p{
+    display: flex;
+   
+font-size: 12px;
+
+}
+
+@media screen and (max-width: 768px) {  /* Tablet */
+  
+    .div-relogio{
+        width: 100%;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 425px) { /* Mobile */
+
+    .div-relogio{
+       margin-bottom:40% ;
+
+    }
+
+
+ }
+
+
+ @media screen and (max-width: 320px) {
+    .div-relogio{
+        margin-bottom:70% ;
+
+     }
+
+     .div-relogio h3{
+  
+        font-size: 28px;
+    
+    
+    }
+
+ }

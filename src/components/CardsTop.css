@@ -4,7 +4,6 @@
   
   display: flex;
   
-  
   margin-top: 5%;
  
 
@@ -32,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: relative;
+  
     width: 100%;
     
     
@@ -81,11 +80,15 @@
   }
 
   .card-index{
-    position: absolute;
-    width: 12%;
-    
+   
+    width: 20%;
+    height: 10%;
+    position: relative;
+    display: flex;
+    justify-content: center;
     top: 20px;
-    left: 20px;
+    left: -10px;
+   align-items: center;
    
     color: rgba(133, 133, 132, 1);
     padding: 5px;
@@ -105,16 +108,101 @@
   @media screen and (max-width: 768px) {  /* Tablet e Mobile */
   
   
-    .cards-container-top {
+    .cards-container-top :nth-child(n+7) {
+      display: none;
+    }
+
+
+    .cards-container-top  {
    
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 29px;
+      
+       grid-template-columns: repeat(2, 1fr);
+     width: 100%;
         
         
       }
+      .cards-top{
+        
+        display: flex;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-right: 120%;
+       
+
+      }
+
+      .card-item{
+        width: 100%;
+        display: flex;
+        
+        
+        
+
+      }
+      .card-top-img{
+        width: 80px;
+        height: 80px;
+        
+    
+      }
+
+      .card-index{
+        width: 30px;
+        height: 20px;
+       
+        top: 5px;
+        left: 15px;
+      }
+     
+      .card-top-conteudo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: start;
+        padding-left:10% ;
+
+      }
+.card-item h5 {
+  width: 100%;
+  font-size: 22px;
   
+
+}
+
+.card-item p {
+  display: flex;
+
+  width: 100%;
+  font-size: 14px;
+  gap: 10px;
+
+}
+
   
-  
-  
+  }
+
+  @media screen and (max-width: 425px) { 
+
+
+    .cards-container-top :nth-child(n+6) {
+      display: none;
+    }
+
+
+    .cards-container-top  {
+   
+      
+       grid-template-columns: repeat(1, 4fr);
+     width: 100%;
+     height: 0px;
+        
+        
+      }
+
+      .cards-top{
+        position: relative;
+        top:-850px;
+      }
+
+
   }

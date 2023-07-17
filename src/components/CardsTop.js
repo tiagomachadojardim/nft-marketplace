@@ -29,6 +29,7 @@ const CardsTop = () => {
               <div className="card-item">
                 <div className="card-index">{index + 1}</div>
                 <img className='card-top-img' src={card.image} alt={card.title} />
+                <div className='card-top-conteudo'>
                 <h5>{card.title}</h5>
                 <p>
                   
@@ -36,6 +37,9 @@ const CardsTop = () => {
                   <span className='card-item-value'> {card.description}</span>
                   
                    </p>
+
+                </div>
+                
               </div>
             </Link>
           ))}

@@ -11,12 +11,10 @@ const CardsTrending = () => {
 
         
 
-         <div className='card1-conteudo'>  {/* card1 */}
+         <div className='card1-conteudo hidden-card1'>  {/* card1 */}
         <Link className='card-img' to='/Nftpage'>
         <img  src={require('../assets/trending-collection/Card1-Placeholder.png')} alt="Placeholder" />
         </Link>
-       
-       
        
         <div className='image-row'>
             <Link className='card-img' to='/Nftpage'>
@@ -46,7 +44,7 @@ const CardsTrending = () => {
         </div>
 
 
-        <div className='card1-conteudo'> {/* card2 */}
+        <div className='card1-conteudo hidden-card2'> {/* card2 */}
 
         <Link className='card-img' to='/Nftpage'><img  src={require('../assets/trending-collection/Card2-Placeholder.png')} alt="Placeholder" /></Link>
 
@@ -68,8 +66,8 @@ const CardsTrending = () => {
         
 
 </div>
-<div className='card1-conteudo'> {/* card3 */}
-
+<div className='card1-conteudo hidden-card3'> {/* card3 */}
+      
         <Link className='card-img' to='/Nftpage'><img  src={require('../assets/trending-collection/Card3-Placeholder.png')} alt="Placeholder" /></Link>
         
 
