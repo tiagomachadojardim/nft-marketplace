@@ -195,6 +195,17 @@
     padding: 0 13%;
 }
 
+.morenfts_section_div{
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin-bottom: 2rem;
+}
+
+.morenfts_section_div:hover{
+    transform: scale(0.95);
+}
+
 @media(max-width:1300px){
     .morenfts_section_right{
         display: none;
