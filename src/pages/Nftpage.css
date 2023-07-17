@@ -4,7 +4,8 @@
     display: flex;
     gap: 5%;
     padding: 0 13%;
-    margin-top: 3rem;
+    margin: 3rem 0;
+
 }
 
 .nftPage_counter_mobile{
@@ -173,6 +174,11 @@
 @media(max-width:1000px){
     .container_nftPage{
         padding: 0 7%;
+    }
+
+    .nftPage_description_tags_div{
+        display: flex;
+        flex-direction: column;
     }
 }
 

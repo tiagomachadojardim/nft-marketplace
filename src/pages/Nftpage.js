@@ -52,18 +52,20 @@ const Nftpage = () => {
                     </div>
                 </Link>
                 <h6>Tags</h6>
-                <Link to="/Artist" className='nftPage_description_tags'>
-                    <p>Animation</p>
-                </Link>
-                <Link to="/Artist" className='nftPage_description_tags'>
-                    <p>Illustration</p>
-                </Link>
-                <Link to="/Artist" className='nftPage_description_tags'>
-                    <p>Moon</p>
-                </Link>
-                <Link to="/Artist" className='nftPage_description_tags'>
-                    <p>Moon</p>
-                </Link>
+                <div className='nftPage_description_tags_div'>
+                    <Link to="/Artist" className='nftPage_description_tags'>
+                        <p>Animation</p>
+                    </Link>
+                    <Link to="/Artist" className='nftPage_description_tags'>
+                        <p>Illustration</p>
+                    </Link>
+                    <Link to="/Artist" className='nftPage_description_tags'>
+                        <p>Moon</p>
+                    </Link>
+                    <Link to="/Artist" className='nftPage_description_tags'>
+                        <p>Moon</p>
+                    </Link>
+                </div>
             </div>
             <div className='nftPage_counter_div'>
                 <div className='nftPage_counter'>
