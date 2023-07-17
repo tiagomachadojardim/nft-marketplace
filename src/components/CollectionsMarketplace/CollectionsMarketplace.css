@@ -1,0 +1,63 @@
+.collections {
+  display: flex;
+  width: 330px;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.collections:hover {
+  transform: scale(95%);
+}
+
+.images {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.other-images {
+  display: flex;
+  gap: 15px;
+}
+
+.other-images > h5 {
+  display: flex;
+  background-color: #a259ff;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  font-family: "Space Mono";
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-artist {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding-top: 15px;
+  gap: 10px;
+}
+
+.info-artist > h5 {
+  font-family: "Work Sans";
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.artist {
+  display: flex;
+  gap: 12px;
+}
+
+.artist > p {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}

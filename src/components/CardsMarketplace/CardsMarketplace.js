@@ -2,7 +2,7 @@ import React from "react";
 import "./CardsMarketplace.css";
 import { Link } from "react-router-dom";
 
-function CardsMarketplace({ image, title, avatar, nickname, alt1, alt2 }) {
+function CardsMarketplace({image, title, avatar, nickname, alt1, alt2 }) {
   return (
     <Link to="/Nftpage.js" className="cards">
       <img className="image" src={image} alt={alt1} />
