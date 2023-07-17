@@ -1,6 +1,6 @@
 .collections {
   display: flex;
-  width: 330px;
+  width: 30%;
   flex-direction: column;
   border-radius: 20px;
   transition: transform 0.3s;
@@ -60,4 +60,17 @@
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+}
+
+@media screen and (max-width:1279px) {
+  .collections {
+    width: 47%;
+    max-width: 330px;
+  }  
+}
+
+@media screen and (max-width:833px) {
+  .collections {
+    width: 315px;
+  }  
 }
