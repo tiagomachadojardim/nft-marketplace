@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.div-artist-page-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    gap: 100px;
+    justify-content: space-evenly;
+    border-bottom: 1px #3b3b3b solid; 
+}
+
+@media screen and (max-width: 768px) {
+    .div-artist-page-info{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .div-artist-page-info{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .img-artist-page-cover-avatar{
+        align-items: center;
+    }
+}
+
+.div-artist-page-info-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    align-self: stretch;
+    margin-left: 20px;
+}
+
+.img-artist-page-cover-avatar {
+    border-radius: 20px;
+    border: 2px solid var(--background, #2B2B2B);
+    transition: all 0.3s;
+}
+
+.img-artist-page-cover-avatar:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.title{
+    color: var(--white, #FFF);
+    /* H2 - Work Sans */
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 186px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    /* Text - Work Sans */
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-key:hover{
+    scale: 0.95;
+}
+
+.btn-follow{
+    display: flex;
+    height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: transparent;
+    /* Text - Work Sans */
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-follow:hover{
+    scale: 0.95;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.volume{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.volume h2 {
+    color: var(--white, #FFF);
+    /* H4 - Space Mono */
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.volume p {
+    color: var(--white, #FFF);
+    /* Text - Space Mono */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.NFTs-sold{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.NFTs-sold h2 {
+    color: var(--white, #FFF);
+    /* H4 - Space Mono */
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.NFTs-sold p {
+    color: var(--white, #FFF);
+    /* Text - Space Mono */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.followers{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.followers h2 {
+    color: var(--white, #FFF);
+    /* H4 - Space Mono */
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+
+.followers p {
+    color: var(--white, #FFF);
+    /* Text - Space Mono */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bio h3{
+    color: #858584;
+    /* H5 - Space Mono */
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+
+.bio p{
+    color: var(--white, #FFF);
+    /* Body Text- Work Sans */
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links h3{
+    color: #858584;
+    /* H5 - Space Mono */
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+
+.links-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}

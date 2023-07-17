@@ -1,0 +1,11 @@
+.div-artist-page-cover {
+    display: flex;
+    align-items: flex-end;
+    background-image: url('../assets/ArtistPage/ArtistPageCoverImage.png');
+    width: 100%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: -40px;
+}
