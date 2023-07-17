@@ -21,6 +21,27 @@
     background-color: #2b2b2b;
 }
 
+@media screen and (max-width: 768px) {
+    .div-artist-page-content-header{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div-artist-page-content-header :nth-child(n+7){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .div-artist-page-content-header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .div-artist-page-content-header :nth-child(n+4){
+        display: none;
+    }
+    
+}
+
 .card-header{
     display: flex;
     flex-direction: column;
