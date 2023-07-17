@@ -12,7 +12,9 @@ function Artist() {
       <ArtistPageCover />
       <ArtistPageInfo />
       <ArtistPageTabs />
-      <ArtistPageContent />
+      <div className="artistcontent">
+        <ArtistPageContent />
+      </div>
   </div>
    );
 }

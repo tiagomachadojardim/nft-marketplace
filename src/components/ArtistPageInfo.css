@@ -12,6 +12,28 @@
     border-bottom: 1px #3b3b3b solid; 
 }
 
+@media screen and (max-width: 768px) {
+    .div-artist-page-info{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .div-artist-page-info{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
 .div-artist-page-info-stats{
     display: flex;
     flex-direction: column;

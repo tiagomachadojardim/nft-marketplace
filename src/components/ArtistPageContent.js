@@ -23,7 +23,7 @@ function ArtistPageContent() {
             <img src={ContentCard.image} alt="content_card img"/>
             <div className="card-header">  
               <h3>{ContentCard.title}</h3>
-              <div className="avatar+name">
+              <div className="avatar-and-name">
                 <img src={require('../assets/Avatar.png')} alt="avatar img"/>
                 <h4>Animakid</h4>
               </div>
