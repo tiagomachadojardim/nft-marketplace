@@ -27,14 +27,14 @@ function Marketplace() {
             onClick={() => setIsEnable(true)}
             className={`nav-bar ${isEnable ? "enabled" : "disabled"}`}
           >
-            <h5>NFTs</h5>
+            <span>NFTs</span>
             <span className="counter-itens">302</span>
           </div>
           <div
             onClick={() => setIsEnable(false)}
             className={`nav-bar ${!isEnable ? "enabled" : "disabled"}`}
           >
-            <h5>Collections</h5>
+            <span>Collections</span>
             <span className="counter-itens">67</span>
           </div>
         </div>
