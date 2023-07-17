@@ -1,7 +1,10 @@
 .div-rankings{
-    align-items: center;
-    text-align: center;
-    border: 1px solid rgb(240, 13, 13); /* Adicione estilos de borda aqui */
-    padding: 10px; /* Exemplo adicional para espaçamento interno */
+    
+    padding: 176px; /* Exemplo adicional para espaçamento interno */
 
+}
+@media screen and (max-width: 768px) {
+.div-rankings {
+    padding: 65px;
+}
 }

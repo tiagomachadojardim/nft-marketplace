@@ -10,7 +10,7 @@ const ConteudoTop = () => {
         <div className="conteudotop-conteudo" >
         <div className="conteudotop-conteudo-div">
         <h3> Top Creators</h3>
-        <p>Checkout Top Rated Creators on the NFT Marketplace</p>
+        <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
         </div>
        
         <Link to="/Account" className="conteudotop-conteudo-button">
