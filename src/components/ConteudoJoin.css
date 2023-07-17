@@ -35,6 +35,7 @@ color: rgba(255, 255, 255, 1);
  margin-top: 10%;
     border-radius: 15px;
     background: white;
+    display: flex;
 
 }
 
@@ -43,7 +44,8 @@ color: rgba(255, 255, 255, 1);
 
   .div-join-email-imput{
     border-radius: 20px;
-
+    width: 100%;
+    flex: 1;
     background: white;
     padding: 10px;
     border: none;
@@ -52,7 +54,7 @@ color: rgba(255, 255, 255, 1);
   }
   .div-join-email-button {
     border-radius: 15px;
-    width: auto;
+   
     background: rgba(162, 89, 255, 1);
     font-family: 'Work Sans', sans-serif;
     padding: 10px 20px;
@@ -83,3 +85,45 @@ color: rgba(255, 255, 255, 1);
     
   }
   
+
+
+
+  @media screen and (max-width: 768px) {  /* Tablet */
+  
+.container-join{
+
+  width: 100%;
+}
+
+    .join-h3{
+font-size: 26px;
+
+
+    }
+    .join-p{
+      font-size: 16px;
+    }
+
+
+    .div-join-email{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 20px;
+      padding: 0%;
+      background: transparent;
+
+    }
+
+
+
+
+
+    }
+    
+    
+    @media screen and (max-width: 425px) { /* Mobile */
+    
+
+      
+     }

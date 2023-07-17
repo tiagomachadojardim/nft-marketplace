@@ -40,3 +40,40 @@ font-size: 12px;
 
 }
 
+@media screen and (max-width: 768px) {  /* Tablet */
+  
+    .div-relogio{
+        width: 100%;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 425px) { /* Mobile */
+
+    .div-relogio{
+       margin-bottom:40% ;
+
+    }
+
+
+ }
+
+
+ @media screen and (max-width: 320px) {
+    .div-relogio{
+        margin-bottom:70% ;
+
+     }
+
+     .div-relogio h3{
+  
+        font-size: 28px;
+    
+    
+    }
+
+ }

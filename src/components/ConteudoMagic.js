@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./ConteudoMagic.css";
 const ConteudoMagic = () => {
   return (
-    <div>
+    <div className='div-magic-conteudo'>
 
 <Link to="/Artist" className="button-magic-avatar"> <img src={require("../assets/trending-collection/Avatar (2).png")} alt="user" /> Shroomie </Link>
       

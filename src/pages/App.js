@@ -26,7 +26,12 @@ function App() {
       
 
       <Routes>
+
+
       <Route path="/" element={<Navigate to="/Home" />} />
+
+
+    
       <Route path="/Home" element={<Home />} />
       <Route path="/Marketplace" element={<Marketplace />} />
       <Route path="/Connect" element={<Connect />} />
@@ -40,8 +45,8 @@ function App() {
       </Routes>
       </div>
 
-
-      <Footer />
+<Footer />
+   
     </Router>
    
    

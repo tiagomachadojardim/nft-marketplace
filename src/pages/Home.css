@@ -19,7 +19,8 @@
     margin-top: 7%;
 }
 .div-top-creators{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     
     width: 85%;
     margin-top: 5%;
@@ -64,7 +65,7 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   
-
+  
   display: flex;
   align-items:flex-end;
   
@@ -93,7 +94,7 @@ background-size: cover;
     width: 85%;
     margin-top: 7%;
 
-    display: flex;
+   
     align-items: center;
     justify-content:space-between;
     text-align:left;
@@ -108,3 +109,62 @@ background-size: cover;
 
 
 
+
+@media screen and (max-width: 768px) {  /* Tablet */
+  
+.div-join-our{
+   gap: 30px;
+}
+
+
+.div-join-our-img{
+
+    width: 50%;
+
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 425px) { /* Mobile */
+
+.div-home{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+}
+
+
+.div-imagem{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    }
+
+
+.div-join-our{
+
+display: flex;
+flex-direction: column;
+background-color: transparent;
+}
+
+.div-join-our-img{
+
+width: 100%;
+
+}
+
+  
+ }

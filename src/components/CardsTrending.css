@@ -82,3 +82,24 @@ color: rgba(255, 255, 255, 1);
     
     
     }
+
+
+
+    @media screen and (max-width: 768px) {  /* Tablet */
+
+
+      .hidden-card3 {
+        display: none;
+      }
+
+     
+
+    }
+    
+    
+    @media screen and (max-width: 425px) { /* Mobile */
+      .hidden-card2 {
+        display: none;
+      }
+    
+    }

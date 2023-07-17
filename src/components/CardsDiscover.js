@@ -5,8 +5,8 @@ const CardsDiscover = () => {
   return (
     <div className="card-discover">
        
-       <Link  className='card-discover-1' to='/Nftpage'>
-       <img src={require("../assets/discover/card1.png")} alt="Imagem 1" />
+       <Link  className='card-discover-1 hidden-discover1' to='/Nftpage'>
+       <img src={require("../assets/discover/card1.png")} className='img-principal-discover' alt="Imagem 1" />
         <div className='discover-conteudo'>
        
         <h4>Distant Galaxy</h4>
@@ -27,10 +27,10 @@ const CardsDiscover = () => {
       </div>
       </Link>
       
-      <Link className="card-discover-1"  to='/Nftpage'>
+      <Link className="card-discover-1 hidden-discover2"  to='/Nftpage'>
         
         
-        <img src={require("../assets/discover/card2.png")} alt="Imagem 2" />
+        <img src={require("../assets/discover/card2.png")}  className='img-principal-discover'  alt="Imagem 2" />
         <div className='discover-conteudo'>
        
        <h4>Life On Edena</h4>
@@ -54,9 +54,9 @@ const CardsDiscover = () => {
 
      
       </Link>
-      <Link className="card-discover-1"  to='/Nftpage'>
+      <Link className="card-discover-1 hidden-discover3"  to='/Nftpage'>
     
-        <img src={require("../assets/discover/card3.png")} alt="Imagem 3" />
+        <img src={require("../assets/discover/card3.png")}  className='img-principal-discover'  alt="Imagem 3" />
         <div className='discover-conteudo'>
        
         <h4>AstroFiction</h4>

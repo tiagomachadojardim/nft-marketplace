@@ -27,72 +27,76 @@ return(
 
    <div className="div-total">
 
-   <div className="div-home">
+<div className="div-home">
       
-   <ConteudoHome />
-   
-   <CardHome />
-   </div>
-   
+      <ConteudoHome />
+      
+      <CardHome />
+      </div>
 
-   <div className="div-trending">
+
+      <div className="div-trending">
   
-   <ConteudoTrending />
-   <CardsTrending />
+  <ConteudoTrending />
+  <CardsTrending />
 
-   </div>
+  </div>
 
 
-   <div className="div-top-creators">
+  <div className="div-top-creators">
 
-      <ConteudoTop />
-     
-      <CardsTop/>
+<ConteudoTop />
+<CardsTop/>
+
+
+</div>
+
+<div className="div-browse">
+<h4> Browse Categories</h4>
+<CardsBrowse />
    
-   </div>
-
-   <div className="div-browse">
-      <h4> Browse Categories</h4>
-      <CardsBrowse />
-         
-   </div>
+</div>
 
 
-   <div className="div-discover">
-   <ConteudoDiscover/>
-   <CardsDiscover />
 
-   </div>
+<div className="div-discover">
+<ConteudoDiscover/>
+<CardsDiscover />
 
-   <div className="div-imagem">
+</div>
 
-  
-   <ConteudoMagic />
-   <RelogioMagic targetTime={targetTime} />
-
-  
-   
-
-   </div>
+<div className="div-imagem">
 
 
-   <div className="div-how">
+<ConteudoMagic />
+<RelogioMagic targetTime={targetTime} />
+
+
+
+
+</div>
+
+
+
+<div className="div-how">
       <ConteudoHow />
       <CardsHow />
 
    </div>
+  
+  
+ 
 
-   <div className="div-join-our">
-   <img src={require("../assets/Photo.png")} alt="user"/>
+<div className="div-join-our">
+
+   <img src={require("../assets/Photo.png")} className="div-join-our-img" alt="user"/>
    <div>
    <ConteudoJoin />
-   
-
    </div>
    
 
    </div>
-
+   
 
    
    </div>
