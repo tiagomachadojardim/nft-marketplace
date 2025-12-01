@@ -16,7 +16,7 @@
 .text-headline {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   font-family: "Work Sans", sans-serif;
   color: #fff;
   gap: 10px;

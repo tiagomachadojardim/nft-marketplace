@@ -1,0 +1,46 @@
+.error-boundary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2b2b2b 0%, #3b3b3b 100%);
+  padding: 20px;
+}
+
+.error-content {
+  text-align: center;
+  color: #fff;
+  max-width: 500px;
+}
+
+.error-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.error-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #858584;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.error-button {
+  background: #a259ff;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.error-button:hover {
+  background: #8b3fd5;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(162, 89, 255, 0.4);
+}

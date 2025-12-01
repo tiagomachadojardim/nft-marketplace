@@ -10,12 +10,13 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import Artist from './Artist';
 import Nftpage from './Nftpage';
+import ErrorBoundary from '../components/ErrorBoundary';
 
 function App() {
 
  
   return (
-  
+  <ErrorBoundary>
  <Router>
 
   
@@ -44,6 +45,7 @@ function App() {
 <Footer />
    
     </Router>
+    </ErrorBoundary>
    
    
 

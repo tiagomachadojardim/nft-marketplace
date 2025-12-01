@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./CardsMarketplace.css";
 import { Link } from "react-router-dom";
 
@@ -26,5 +27,14 @@ function CardsMarketplace({image, title, avatar, nickname, alt1, alt2 }) {
     </Link>
   );
 }
+
+CardsMarketplace.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  nickname: PropTypes.string.isRequired,
+  alt1: PropTypes.string.isRequired,
+  alt2: PropTypes.string.isRequired
+};
 
 export default CardsMarketplace;
