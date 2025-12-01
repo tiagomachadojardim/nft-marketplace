@@ -102,6 +102,15 @@ a {
     position: relative;
     margin-left:400px;
     z-index: 2;
+    background: transparent;
+    border: none;
+    padding: 10px;
+  }
+
+  .menu-toggle:focus {
+    outline: 2px solid #a259ff;
+    outline-offset: 2px;
+    border-radius: 4px;
   }
 
   .menu-icon {

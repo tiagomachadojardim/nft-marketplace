@@ -30,11 +30,11 @@ function Menu() {
   }, []);
 
   return (
-    <nav className={`menu ${isMobile && isMenuOpen ? "menu-open" : ""}`}>
+    <nav className={`menu ${isMobile && isMenuOpen ? "menu-open" : ""}`} role="navigation" aria-label="Menu principal">
       <div className="menu-container">
         <div className="left-section">
-          <Link to="/Home">
-            <img src={require("../assets/logo.png")} alt="Logo" />
+          <Link to="/Home" aria-label="Ir para página inicial">
+            <img src={require("../assets/logo.png")} alt="NFT Marketplace Logo" />
           </Link>
         </div>
         <div
@@ -43,15 +43,21 @@ function Menu() {
           }`}
         >
           {isMobile && (
-            <div className="menu-toggle" onClick={toggleMenu}>
+            <button 
+              className="menu-toggle" 
+              onClick={toggleMenu}
+              aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="menu-items"
+            >
               <div className={`menu-icon ${isMenuOpen ? "open" : ""}`}>
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
-            </div>
+            </button>
           )}
-          <ul className={`menu-items ${isMenuOpen ? "open" : ""}`}>
+          <ul className={`menu-items ${isMenuOpen ? "open" : ""}`} id="menu-items">
             <li>
               <div className="scale-link-container" >
                 <Link to="/Marketplace" onClick={toggleMenu}>

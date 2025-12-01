@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import "./App.css";
 import Menu from '../components/Menu';
 import Footer from './Footer';
-import Marketplace from './Marketplace';
-import Connect from './Connect';
-import Rankings from './Rankings';
-import Account from './Account';
-import Home from './Home';
 import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
-import Artist from './Artist';
-import Nftpage from './Nftpage';
 import ErrorBoundary from '../components/ErrorBoundary';
+import Loading from '../components/Loading';
+
+// Lazy loading das páginas
+const Home = lazy(() => import('./Home'));
+const Marketplace = lazy(() => import('./Marketplace'));
+const Connect = lazy(() => import('./Connect'));
+const Rankings = lazy(() => import('./Rankings'));
+const Account = lazy(() => import('./Account'));
+const Artist = lazy(() => import('./Artist'));
+const Nftpage = lazy(() => import('./Nftpage'));
 
 function App() {
 
@@ -23,7 +26,7 @@ function App() {
      <Menu />
       <div>
       
-
+      <Suspense fallback={<Loading message="Carregando página..." />}>
       <Routes>
 
 
@@ -40,6 +43,7 @@ function App() {
      
 
       </Routes>
+      </Suspense>
       </div>
 
 <Footer />

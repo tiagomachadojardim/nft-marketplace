@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import './CardsTrending.css';
 
-const CardsTrending = () => {
+const CardsTrending = React.memo(() => {
     return (
         
         
@@ -95,7 +95,7 @@ const CardsTrending = () => {
       
     
     );
-  }
+  });
 
 
 
